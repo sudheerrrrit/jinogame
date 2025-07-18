@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+*{
+	font-family: kristen ITC;
+}
+
+.container{
+	text-align: center;
+	width: 100vw;
+	height:100vh;
+	background-color: #111;
+}
+
+.step1{
+	animation: stepOne 8s linear 0s ;
+}
+
+@keyframes stepOne {
+	0%{opacity:0;visibility: visible;}
+	30%{opacity:1;}
+	80%{opacity:1;}
+	100%{opacity:0;visibility:hidden}
+}
+
+.step2{
+	animation: stepTwo 4s linear 9s ;
+}
+
+@keyframes stepTwo {
+	0%{opacity:0;visibility: visible;}
+	50%{opacity:1;}
+	100%{opacity:0;visibility: hidden;}
+}
+
+.step3{
+	animation: stepThree 4s linear 14s ;
+}
+
+@keyframes stepThree{
+	0%{opacity:0;visibility: visible;}
+	50%{opacity:1;}
+	100%{opacity:0;visibility: hidden;}
+}
+
+.step4{
+	animation: stepFour 4s linear 19s ;
+}
+
+@keyframes stepFour{
+	0%{opacity:0;visibility: visible;}
+	50%{opacity:1;}
+	100%{opacity:0;visibility: hidden;}
+}
+
+.step5{
+	animation: stepFive 6s linear 24s ;
+}
+
+@keyframes stepFive{
+	0%{opacity:0;visibility: visible;}
+	50%{opacity:1;}
+	100%{opacity:0;visibility: hidden;}
+}
+
+.step6{
+	visibility: hidden;
+	background-image:url('../assets/platform/base/Player/p2/p2_front.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	animation: stepSix 20s linear 33s infinite;
+}
+
+@keyframes stepSix{
+	0%{opacity:0;visibility: visible;}
+	10%{opacity:1;}
+	95%{opacity:1;}
+	100%{opacity:0;}
+}
+
+.step7{
+	animation: stepSeven 20s linear 35s infinite;
+}
+
+@keyframes stepSeven{
+	0%{opacity:0;visibility: hidden;}
+	10%{opacity:1;}
+	95%{opacity:1;}
+	100%{opacity:0;visibility: visible;}
+}

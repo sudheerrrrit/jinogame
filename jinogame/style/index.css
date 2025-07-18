@@ -1,0 +1,77 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+canvas{
+	margin: 0;
+	padding: 0;
+	background-color: #f8f8f8;
+	overflow: hidden;
+}
+
+#head{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+	background-image: url('../assets/platform/base/HUD/hud_p2Alt.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
+
+#plife div{
+	position: absolute;
+	top:0;
+	left: 50px;
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	transform:scale(0.6,0.6);
+	background-image: url('../assets/platform/base/HUD/hud_heartFull.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#pkeys{
+	position: absolute;
+	top:40px;
+	left:-5px;
+	padding: 5px; 
+}
+
+#pkeys div{
+	display: none;
+	position: absolute;
+	top:0;
+	left: 0px;
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	transform:scale(0.6,0.6);
+	background-image: url('../assets/platform/base/HUD/hud_keyGreen.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+/* PLAYER STYLE */
+#player{
+	display: none;
+
+	margin: 0;
+	padding: 0;
+
+	position: absolute;
+	z-index: 3;
+
+	background-image: url('../assets/platform/base/Player/p2/p2_stand.png');
+
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
