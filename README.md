@@ -22,7 +22,11 @@ CSS3
 
 JavaScript (Vanilla JS)
 
+
 📸 Screenshots
+
+
+![photo_2025-07-18_11-59-08](https://github.com/user-attachments/assets/02c32bff-0248-4c2f-82f5-dd3f277e6f5f)
 
 
 
