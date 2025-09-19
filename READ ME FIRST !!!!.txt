@@ -1,1 +1,2 @@
 SIMPLE PLATFORM GAME IN JAVASCRIPT
+and a little html 
